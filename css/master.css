@@ -1,0 +1,73 @@
+li {line-height: 2rem;}
+a{ text-decoration:none; color:inherit; }
+body {min-width: 320px; max-width: 640px;
+  margin: 20px;
+  border: 1px solid black;
+  font-family: 'Noto Serif KR', serif;
+}
+header {border-bottom: 1px solid gray;
+  padding: 20px;
+  background-color: gray;
+  color: white;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  height: 80px
+}
+nav {border-bottom: 1px solid gray;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 64px;
+}
+article {padding: 20px;}
+img {width:70%}
+.mid {vertical-align: middle;}
+.bold {font-weight: bold;}
+.subject {
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+p img {margin-top: 1rem;}
+.inq {margin: 0 0 0 0; width: auto;}
+
+#q {white-space: pre-wrap;}
+#plist a {margin: 2px;}
+#question {line-height: 2rem;}
+
+body, .fade {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
